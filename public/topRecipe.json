@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "683193b54cdccd54835f9968",
+    "image": "https://i.ibb.co/5zzYcB3/chicken-biriyani.jpg",
+    "title": "Chicken Biryani",
+    "ingredients": "Chicken, chaal, piyaj, ada-roshun, doi, tel, morich, holud, garam masala, dhonepata, zafran/dudh.",
+    "instructions": "Chicken, chaal, piyaj, ada-roshun, doi, tel, morich, holud, garam masala, dhonepata, zafran/dudh.",
+    "cuisineType": "Bangladeshi",
+    "preparationTime": 60,
+    "categories": ["Breakfast", "Lunch", "Dinner"],
+    "userEmail": "tanvir@gmail.com",
+    "likeCount": 37
+  },
+  {
+    "_id": "68315b635304553b426b2313",
+    "image": "https://i.ibb.co/KcfRysd4/hq720-1.jpg",
+    "title": "Fuchka",
+    "ingredients": "Semolina, Potato, Tamarind",
+    "instructions": "Fry puri, fill and serve",
+    "cuisineType": "Bangladeshi",
+    "preparationTime": 5,
+    "categories": ["Dessert"],
+    "userEmail": "juthi@gmail.com",
+    "likeCount": 35
+  },
+  {
+    "_id": "683194444cdccd54835f9969",
+    "image": "https://i.ibb.co/JR3mg6Vr/1629601397277-Mutton-Biriyani.webp",
+    "title": "Mutton Biryani",
+    "ingredients": "Mutton, chaal, piyaj, ada-roshun, doi, tel, morich, holud, garam masala, zafran/dudh, dhonepata.",
+    "instructions": "Mutton soft kore ranna kore, chaal half-boil diye layer kore dum e biryani ranna korun.",
+    "cuisineType": "Bangladeshi",
+    "preparationTime": 60,
+    "categories": ["Lunch", "Dinner"],
+    "userEmail": "tanvir@gmail.com",
+    "likeCount": 34
+  },
+  {
+    "_id": "683190744cdccd54835f9964",
+    "image": "https://i.ibb.co/b5jkdPJy/images-6.jpg",
+    "title": "Pizza Margherita",
+    "ingredients": "Flour, Tomato, Cheese",
+    "instructions": "Bake the pizza",
+    "cuisineType": "Italian",
+    "preparationTime": 30,
+    "categories": ["Dessert"],
+    "userEmail": "diya@gmail.com",
+    "likeCount": 32
+  },
+  {
+    "_id": "6831913c4cdccd54835f9966",
+    "image": "https://i.ibb.co/5gMNhYhC/beef-tehari-bengali-style-rice-600nw-2346710487.webp",
+    "title": "Beef Tehari",
+    "ingredients": "Beef, Rice, Spices",
+    "instructions": "Cook beef and add rice",
+    "cuisineType": "Bangladeshi",
+    "preparationTime": 60,
+    "categories": ["Dinner"],
+    "userEmail": "nafisa@gmail.com",
+    "likeCount": 24
+  },
+  {
+    "_id": "683190e84cdccd54835f9965",
+    "image": "https://i.ibb.co/0V6rnhwG/GJ16a1y2-HDD3g-Yjmojg2t-1000x.webp",
+    "title": "Thai Green Curry",
+    "ingredients": " Chicken, Coconut milk, Green curry paste ",
+    "instructions": "Cook everything together",
+    "cuisineType": "Chinese",
+    "preparationTime": 40,
+    "categories": ["Lunch"],
+    "userEmail": "adiba@gmail.com",
+    "likeCount": 19
+  }
+]
