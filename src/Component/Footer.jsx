@@ -52,11 +52,7 @@ const Footer = () => {
                         </NavLink>
                     </li>
                 </ul>
-
-
-
-
-
+                
                 <div className="space-y-1 text-sm md:text-base">
                     <p>Email: <a className="hover:text-green-400 transition">recipebook@mail.com</a></p>
                     <p>Phone: <a href="tel:+1234567890" className="hover:text-green-400 transition">+1 234 567 890</a></p>
