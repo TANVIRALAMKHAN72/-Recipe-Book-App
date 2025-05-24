@@ -11,8 +11,6 @@ import { GiBowlOfRice } from "react-icons/gi";
 
 
 
-
-
 const ErrorPage = () => {
     return (
         <div className="min-h-screen bg-gradient-to-tr from-orange-100 via-yellow-200 to-red-100 flex flex-col items-center justify-center text-center px-4">
