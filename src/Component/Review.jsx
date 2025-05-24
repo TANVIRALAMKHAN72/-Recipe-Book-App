@@ -4,8 +4,6 @@ import { FaQuoteLeft } from 'react-icons/fa';
 
 
 
-
-
 const Review = () => {
   return (
     <section className="py-12 text-center bg-base-300">
