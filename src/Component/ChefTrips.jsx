@@ -7,12 +7,6 @@ import { Fade, Slide } from "react-awesome-reveal";
 import { Zoom } from "react-awesome-reveal";
 
 
-
-
-
-
-
-
 const ChefTrips = () => {
     return (
          <div>
