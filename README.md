@@ -3,28 +3,33 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 
+# Recipe Book App
+
+## A modern, responsive, and feature-rich Recipe Book application built with React, Firebase Authentication, and MongoDB backend.
+
+Users can explore, like, and manage delicious recipes across various cuisine types with ease.
+
+---
+
+## Live Link  
+[https://charming-fairy-b359bc.netlify.app/](https://charming-fairy-b359bc.netlify.app/)
+
+---
+
+## Features
+
+- User Authentication with Email/Password & Google Sign-In  
+- Protected Routes to secure private pages  
+- Add, Update, and Delete your own recipes effortlessly  
+- Like System with real-time counts and user restrictions  
+- Upload and display Recipe Images  
+- Filter recipes by different Cuisine Types  
+- Toggle between Light and Dark Themes for better accessibility  
+- Showcase Top Liked Recipes prominently  
+- Smooth and engaging animations powered by `react-awesome-reveal`  
+- Enhanced user experience with Toast Notifications and SweetAlerts
 
 
-
- Recipe Book App
-
- A modern, responsive, and feature-rich Recipe Book application built with React, Firebase Authentication, and MongoDB backend. Users can explore, like, and manage delicious recipes across various cuisine types.
-
-
-live link: [text](https://charming-fairy-b359bc.netlify.app/)
-
-##  Features
-
--  **User Authentication** (Email/Password & Google)
--  Protected Routes
--  Add, Update, Delete your own recipes
--  Like system with count & restrictions
--  Recipe Image support
--  Filter recipes by cuisine type
--  Light/Dark Theme Toggle
--  Top liked recipes display
--  Smooth animations with `react-awesome-reveal`
--  Toast notifications & SweetAlerts for UX
 
 
 Currently, two official plugins are available:
