@@ -12,7 +12,7 @@ Users can explore, like, and manage delicious recipes across various cuisine typ
 ---
 
 ## Live Link  
-[https://charming-fairy-b359bc.netlify.app/](https://charming-fairy-b359bc.netlify.app/)
+[https://relaxed-cranachan-31b3c8.netlify.app/](https://relaxed-cranachan-31b3c8.netlify.app/)
 
 ---
 
