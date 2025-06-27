@@ -7,7 +7,7 @@ const Review = () => {
   return (
     <section className="py-12 text-center bg-base-300">
      <Fade>
-       <h2 className="text-3xl font-bold mb-10 text-gray-500">What Foodies Are Saying</h2>
+       <h2 className="text-4xl font-bold mb-10 text-gray-800">What Foodies Are Saying</h2>
      </Fade>
       <Fade cascade damping={0.2} triggerOnce>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-8">

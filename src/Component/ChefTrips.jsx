@@ -12,7 +12,7 @@ const ChefTrips = () => {
          <div>
       <section className="px-6 py-12 bg-base-300 text-center">
         <Fade>
-          <h2 className="text-3xl font-bold mb-10 text-gray-500">Chef’s Tips</h2>
+          <h2 className="text-4xl font-bold mb-10 text-gray-800">Chef’s Tips</h2>
         </Fade>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           

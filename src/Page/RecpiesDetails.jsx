@@ -47,7 +47,7 @@ const RecipeDetails = () => {
 
   return (
     <div className="p-5 max-w-4xl mx-auto">
-      <div className="bg-base-300 dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-4">
+      <div className="bg-base-200 dark:bg-gray-800 rounded-xl shadow-lg p-6 space-y-4">
        
         <div className="text-center"> 
           <div className="flex justify-center items-center gap-2 text-lg font-medium">

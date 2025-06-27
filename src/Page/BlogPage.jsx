@@ -1,10 +1,13 @@
 import React from 'react';
+import { Fade } from 'react-awesome-reveal';
 
 const BlogPage = () => {
     return (
         <div className="w-10/12 mx-auto px-6 py-12 min-h-screen">
-      <h1 className="text-4xl font-bold mb-10 text-center text-gray-500">Recipe Book FAQs</h1>
+<Fade>
+        <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">Recipe Book FAQs</h1>
 
+</Fade>
       <div className="bg-white p-6 rounded-2xl shadow mb-8">
         <h2 className="text-2xl font-semibold mb-3 text-gray-700">
           How do I save recipes in this app?

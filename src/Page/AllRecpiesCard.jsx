@@ -8,7 +8,7 @@ const AllRecpiesCard = ({ recipe }) => {
   const likeCount = recipe.likeCount || 0;
 
   return (
-    <div className="bg-gray-300 shadow-md hover:shadow-lg transition duration-300 rounded-xl overflow-hidden flex flex-col">
+    <div className="bg-gray-100 shadow-md hover:shadow-lg transition duration-300 rounded-xl overflow-hidden flex flex-col">
       <img src={recipe.image} alt={recipe.title} className="w-full h-48 object-cover" />
 
       <div className="p-4 flex-1 flex flex-col justify-between">

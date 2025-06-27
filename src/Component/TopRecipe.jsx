@@ -35,7 +35,7 @@ const TopRecipe = () => {
     <div className="mx-auto p-8  bg-base-300 ">
 
     <Fade>
-          <h1 className="text-4xl font-bold text-center mb-12 text-gray-600">Top Recipes</h1>
+          <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">Top Recipes</h1>
     </Fade>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-12">
         {recipes.map((recipe) => (
@@ -54,7 +54,7 @@ const TopRecipe = () => {
                 <span className="font-semibold">Ingredients:</span> {recipe.cuisineType}
               </p>
              
-              <p className="flex items-center text-red-400 font-bold text-lg">
+              <p className="flex items-center  font-bold text-lg">
                 <span className="mr-2"><FcLike size={24}/></span> {recipe.likeCount} Likes
               </p>
             </div>

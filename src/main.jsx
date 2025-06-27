@@ -20,6 +20,7 @@ import SignIn from './Component/SignIn.jsx';
 import SignUp from './Component/SignUp.jsx';
 import AuthProvider from './Context/AuthProvider.jsx';
 import PrivateRoute from './Utils/privateRoute.jsx';
+import Dashboard from './Component/Dashboard.jsx';
 
 
 
@@ -35,7 +36,11 @@ const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/blogpage',
+        path: '/dashboard',
+        element: <Dashboard></Dashboard>,
+      },
+      {
+        path: '/blog',
         element: <BlogPage></BlogPage>,
       },
       {

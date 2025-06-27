@@ -56,14 +56,14 @@ const RecipeModal = ({ isOpen, onClose, recipeData, onUpdate }) => {
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-      <div className="bg-base-300 rounded-lg p-6 max-w-3xl w-full overflow-auto max-h-[90vh]">
+      <div className="bg-base-200 rounded-lg p-6 max-w-3xl w-full overflow-auto max-h-[90vh]">
         <button
           className="float-right text-gray-600 hover:text-gray-900"
           onClick={onClose}
         >
           ✕
         </button>
-        <h2 className="text-2xl font-bold mb-6 text-center">Update Recipe</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center">Update Recipe</h2>
         <form onSubmit={handleSubmit}>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

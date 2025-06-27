@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AllRecpiesCard from './AllRecpiesCard';
+import { Fade } from 'react-awesome-reveal';
 
 const AllRecips = () => {
   const [recipes, setRecipes] = useState([]);
@@ -48,8 +49,10 @@ const AllRecips = () => {
 
   return (
     <div className="p-5">
-      <h2 className="text-3xl font-bold text-center text-gray-500 my-10">All Recipes</h2>
+<Fade>
+        <h2 className="text-4xl font-bold text-center text-gray-800 my-10">All Recipes</h2>
 
+</Fade>
       
       <div className="flex justify-center mb-10">
         <input
@@ -62,7 +65,7 @@ const AllRecips = () => {
       </div>
 
   
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-5">
         {filteredRecipes.map(recipe => (
           <AllRecpiesCard
             key={recipe._id}

@@ -3,6 +3,7 @@ import { AuthContext } from '../Context/AuthProvider';
 import RecipeModal from './RecipeModal';
 import { FaEdit } from "react-icons/fa";
 import { RiDeleteBin6Line } from "react-icons/ri";
+import { Fade } from 'react-awesome-reveal';
 
 const MyRecipes = () => {
   const { user } = useContext(AuthContext);
@@ -79,7 +80,9 @@ const MyRecipes = () => {
 
   return (
     <div className="py-5 px-8">
-      <h2 className="text-3xl font-bold mt-8 mb-12 text-center">My Recipes</h2>
+     <Fade>
+       <h2 className="text-4xl font-bold mt-8 mb-12 text-center text-gray-800">My Recipes</h2>
+     </Fade>
       {myRecipes.length === 0 ? (
         <p className='my-20 text-center font-semibold'>You have not added any recipes yet.</p>
       ) : (

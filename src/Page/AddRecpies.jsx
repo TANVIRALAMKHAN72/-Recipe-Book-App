@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-awesome-reveal";
 import Swal from "sweetalert2";
 
 const AddRecpies = () => {
@@ -45,7 +46,9 @@ form.reset();
 
   return (
      <div className="my-12 w-11/12 md:w-9/12 mx-auto">
-      <h1 className="text-3xl font-bold mb-10 text-center text-gray-600">Add a Recipe</h1>
+      <Fade>
+        <h1 className="text-4xl font-bold mb-10 text-center text-gray-800">Add a Recipe</h1>
+      </Fade>
 
       <form onSubmit={handleAddRecipes}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
